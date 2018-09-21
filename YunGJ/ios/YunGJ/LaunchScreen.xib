@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="543-Ow-haN">
+                    <rect key="frame" x="130" y="161" width="115" height="115"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="115" id="Hls-1Q-nbU"/>
+                        <constraint firstAttribute="height" constant="115" id="h6q-iI-crs"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="芸管家" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqv-9D-zJr">
+                    <rect key="frame" x="161.5" y="296" width="52" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.1481201053" green="0.64453405139999997" blue="0.29399383070000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="543-Ow-haN" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PeS-q5-15O"/>
+                <constraint firstItem="bqv-9D-zJr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Xgi-yY-39m"/>
+                <constraint firstItem="bqv-9D-zJr" firstAttribute="top" secondItem="543-Ow-haN" secondAttribute="bottom" constant="20" id="bfY-1W-OY4"/>
+                <constraint firstItem="543-Ow-haN" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-115" id="gm0-Rm-iOm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon" width="150" height="150"/>
+    </resources>
+</document>

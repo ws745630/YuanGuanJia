@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "leftText": "优惠券名称",
+        "rightText": "请输入优惠券名称",
+        "type": "input",
+        "keyboardType": "default"
+    }, {
+        "id": 2,
+        "leftText": "适用商户",
+        "rightText": "请选择适用商户",
+        "type": "button"
+    }, {
+        "id": 3,
+        "leftText": "优惠券类型",
+        "rightText": "请选择优惠券类型",
+        "type": "button"
+    }, {
+        "id": 4,
+        "leftText": "面值",
+        "rightText": "请输入面值(单元:元)",
+        "type": "input",
+        "keyboardType": "numeric"
+    },{
+        "id": 5,
+        "leftText": "满额可用(单位:元)",
+        "rightText": "请输入满额额度",
+        "type": "input",
+        "keyboardType": "numeric"
+    }, {
+        "id": 6,
+        "leftText": "优惠券发放途径",
+        "rightText": "请选择发放途径",
+        "type": "button"
+    },{
+        "id": 7,
+        "leftText": "购买价值",
+        "rightText": "请输入购买价值(单位:元)",
+        "type": "input"
+    },{
+        "id": 8,
+        "leftText": "适用范围",
+        "rightText": "请选择适用范围",
+        "type": "button"
+    }, {
+        "id": 9,
+        "leftText": "使用权限",
+        "rightText": "请选择使用权限",
+        "type": "button"
+    }, {
+        "id": 10,
+        "leftText": "有效开始时间",
+        "rightText": "请选择有效开始时间",
+        "type": "button"
+    }, {
+        "id": 11,
+        "leftText": "有效结束时间",
+        "rightText": "请选择有效结束时间",
+        "type": "button"
+    }, {
+        "id": 12,
+        "leftText": "可用时间段1",
+        "rightText": "请选择可用时间段",
+        "type": "button"
+    }, {
+        "id": 13,
+        "leftText": "可用时间段2",
+        "rightText": "请选择可用时间段",
+        "type": "button"
+    }, {
+        "id": 14,
+        "leftText": "不可使用日期",
+        "rightText": "请选择不可使用日期",
+        "type": "button"
+    }, {
+        "id": 15,
+        "leftText": "使用规则",
+        "rightText": "请选择使用规则",
+        "type": "button"
+    }, {
+        "id": 16,
+        "leftText": "叠加张数",
+        "rightText": "请选择叠加张数",
+        "type": "button"
+    }   
+]
