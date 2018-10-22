@@ -34,6 +34,8 @@ import CouponTemplate from './page/coupon/CouponTemplate'
 import Mine from './page/mine/Mine'
 import Message from './page/mine/Message'
 
+import CommodityList from './page/commodity/CommodityList'
+import AddCommodityType from './page/commodity/AddCommodityType'
 
 import OrderView from './page/order/OrderView'
 import OrderDetailsView from './page/order/OrderDetailsView'
@@ -111,7 +113,9 @@ export default class Routers extends Component {
                             <Scene key="Message" component={Message} title='消息' />
                             <Scene key="CommendList" component={CommendList} title='商户评论' />
                             <Scene key="OrderDetailsView" component={OrderDetailsView} title='订单详情' />
-
+                            <Scene key="CommodityList" component={CommodityList} title='商品' />
+                            <Scene key="AddCommodityType" component={AddCommodityType} title='新增商品' />
+                            
                         
                     </Stack>
                 </Modal>

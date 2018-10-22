@@ -141,34 +141,8 @@ export default class Home extends Component {
             Actions.Activity();
         }else if(title == '验券'){
             console.log('验券。。。');
-            // Actions.popTo('DefaultScreen');
-            Actions.DefaultScreen({screenType:'yanquan',callback: ((Codeinfo) => {
-                
-                if(Codeinfo.couponId.length>0){
-                    var params = {
-                        couNo:Codeinfo.couNo,
-                        couponId:Codeinfo.couponId,
-                        couponMchtId:Number(Codeinfo.couponMchtId),
-                        usrId:Number(Codeinfo.userId),
-                        mchtId:Number(BusiInfo.userInfo.usr.mchtId),
-                        tlrNo:BusiInfo.userInfo.usr.tlrNo,
-
-                    };
-                    NetWorkTool.destroyCoupon(params,(result => {
-                        Alert.alert(JSON.stringify(result));
-                        var couPonModel  =   getConvertModel(result)
-                        return;
-                    }))
-
-
-                }else{
-                    Alert.alert('此二维码无效')
-                }   
-            })
-         });
+            this._destroyCoupon()
         }else if(title == '消息'){
-            
-          
             Actions.Message({
                 callback: (data)=>{
                     alert(data);
@@ -176,8 +150,35 @@ export default class Home extends Component {
             });
         }else if(title == '评论'){
             Actions.CommendList();
+        }else if(title == '商品'){
+            Actions.CommodityList()
         }
+    }
 
+
+    /* 核销电子券 */
+    _destroyCoupon(){
+        Actions.DefaultScreen({screenType:'yanquan',callback: ((Codeinfo) => {
+            if(Codeinfo.couponId.length>0){
+                var params = {
+                    couNo:Codeinfo.couNo,
+                    couponId:Codeinfo.couponId,
+                    couponMchtId:Number(Codeinfo.couponMchtId),
+                    usrId:Number(Codeinfo.userId),
+                    mchtId:Number(BusiInfo.userInfo.usr.mchtId),
+                    tlrNo:BusiInfo.userInfo.usr.tlrNo,
+
+                };
+                NetWorkTool.destroyCoupon(params,(result => {
+                    Alert.alert(JSON.stringify(result));
+                    var couPonModel  =   getConvertModel(result)
+                    return;
+                }))
+            }else{
+                Alert.alert('此二维码无效')
+            }   
+        })
+     });
     }
 
 _QRCodeHander(){

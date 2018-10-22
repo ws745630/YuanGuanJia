@@ -31,8 +31,7 @@ export default class TicketDetail extends Component {
       DateView = <NoticeUse useText={date} />
     }
     if (infoModel.dishTypeNames) {
-      var typeName = infoModel.dishTypeNames.join(',')
-      
+      var typeName = infoModel.dishTypeNames.toString();
       useView = <NoticeUse useText={typeName + '可用'} />
     }
     if (infoModel.useTime) {
