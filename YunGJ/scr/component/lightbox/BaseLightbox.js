@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { View, StyleSheet, Animated, Dimensions, Button } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import DeviceInfo from '../../public/DeviceInfo'
+import DeviceInfo from '../../utils/DeviceInfo'
 
 export default class BaseLightbox extends Component {
   static propTypes = {

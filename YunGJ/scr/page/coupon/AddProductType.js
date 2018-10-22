@@ -2,9 +2,9 @@ import React from 'react'
 import { StyleSheet, View, Text, TextInput, TouchableOpacity } from 'react-native'
 import { Button } from 'react-native-elements'
 import { Actions } from 'react-native-router-flux'
-import NetWorkTool from '../../public/network/NetWorkTool'
-import {Theme,ScaleSize,ScaleText,Toast} from '../../public/FileReference'
-import BusiInfo from '../../public/BusiInfo'
+import NetWorkTool from '../../utils/network/NetWorkTool'
+import {Theme,ScaleSize,ScaleText,Toast} from '../../utils/FileReference'
+import BusiInfo from '../../utils/BusiInfo'
 
 export default class AddProductType extends React.Component {
     constructor(props) {

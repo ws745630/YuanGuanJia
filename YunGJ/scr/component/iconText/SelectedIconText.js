@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, } from 'react-native';
 import SelIcon from 'react-native-vector-icons/EvilIcons'
 import UnSelIcon from 'react-native-vector-icons/Feather'
-import {ScaleSize,ScaleText} from '../../public/Fit'
+import {ScaleSize,ScaleText} from '../../utils/Fit'
 
 export default class SelectedIconItem extends Component
 {

@@ -7,9 +7,9 @@ import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View,Image,Alert} from 'react-native';
 import BackIcon from 'react-native-vector-icons/EvilIcons'
 
-import NetWorkTool from '../../public/network/NetWorkTool';
+import NetWorkTool from '../../utils/network/NetWorkTool';
 import { Actions } from 'react-native-router-flux';
-import {Theme,DeviceInfo,ScaleSize,ScaleText} from '../../public/FileReference'
+import {Theme,DeviceInfo,ScaleSize,ScaleText} from '../../utils/FileReference'
 
 export default class Mine extends Component
 {

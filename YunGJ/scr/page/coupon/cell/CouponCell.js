@@ -10,12 +10,12 @@ import {
 import ShowTicket from '../../../component/coupon/ShowTicket'
 import BusiIcon from '../../../component/icon/BusiIcon'
 import { Actions } from 'react-native-router-flux'
-import NetWorkTool from '../../../public/network/NetWorkTool'
-import BusiInfo from '../../../public/BusiInfo'
-import DefaultModal from '../../../public/DefaultModal'
+import NetWorkTool from '../../../utils/network/NetWorkTool'
+import BusiInfo from '../../../utils/BusiInfo'
+import DefaultModal from '../../../utils/DefaultModal'
 import CreateCoupon from '../../../component/coupon/CreateCoupon'
-import Emitter from '../../../public/EmitterConst'
-import {ScaleSize, ScaleText,DeviceInfo} from '../../../public/FileReference'
+import Emitter from '../../../utils/EmitterConst'
+import {ScaleSize, ScaleText,DeviceInfo} from '../../../utils/FileReference'
 
 export default class CouponCell extends Component {
     constructor(props) {

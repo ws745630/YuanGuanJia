@@ -5,7 +5,7 @@ import {
     View,
 
 } from 'react-native';
-import { ScaleSize, ScaleText } from '../../public/Fit';
+import { ScaleSize, ScaleText } from '../../utils/Fit';
 
 export default class LeftRightLabel extends Component {
 

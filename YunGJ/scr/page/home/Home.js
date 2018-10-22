@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, Image, View, TouchableOpacity, Alert, Dimensions, ImageBackground, Modal
 } from 'react-native';
 import {Actions,Scene} from 'react-native-router-flux';
-import BusiInfo from '../../public/BusiInfo';
-import NetWorkTool from '../../public/network/NetWorkTool'
-import {ScaleSize,ScaleText} from '../../public/Fit'
-import DateUtil from '../../public/DateUtil'
+import BusiInfo from '../../utils/BusiInfo';
+import NetWorkTool from '../../utils/network/NetWorkTool'
+import {ScaleSize,ScaleText} from '../../utils/Fit'
+import DateUtil from '../../utils/DateUtil'
 
 const window = Dimensions.get('window')
 

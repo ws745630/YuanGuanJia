@@ -50,7 +50,7 @@ import DefaultScreen from './page/qrscanner/DefaultScreen'
 import CommendList from './page/commend/CommendList'
 
 
-import theme from './public/Theme'
+import theme from './utils/Theme'
  
 const reducerCreate = params => {
     const defaultReducer = new Reducer(params)

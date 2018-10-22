@@ -3,9 +3,9 @@
  */
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, Image, View, TouchableOpacity, Alert, Dimensions, ImageBackground } from 'react-native';
-import BusiInfo  from '../../public/BusiInfo'
+import BusiInfo  from '../../utils/BusiInfo'
 import { Actions } from 'react-native-router-flux';
-import {Theme,ScaleSize,ScaleText,Toast,DeviceInfo} from '../../public/FileReference'
+import {Theme,ScaleSize,ScaleText,Toast,DeviceInfo} from '../../utils/FileReference'
 
 //定义一些全局的变量
 var cols = 2;

@@ -15,12 +15,12 @@ import {
     AsyncStorage,
     Button
 } from 'react-native' 
-import NetWorkTool from '../../public/network/NetWorkTool' 
+import NetWorkTool from '../../utils/network/NetWorkTool' 
 import { BaseComponent } from '../../component/base/BaseComponent'
 import {Actions} from 'react-native-router-flux' 
 import QRCode from 'react-native-qrcode'
-import BusiInfo from '../../public/BusiInfo'
-import {Theme,DeviceInfo,ScaleSize,ScaleText} from '../../public/FileReference'
+import BusiInfo from '../../utils/BusiInfo'
+import {Theme,DeviceInfo,ScaleSize,ScaleText} from '../../utils/FileReference'
 
  
 

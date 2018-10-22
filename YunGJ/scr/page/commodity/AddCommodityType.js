@@ -7,7 +7,7 @@ import React, { Component } from 'react'
 import { View, StyleSheet,Text,Image,TextInput,TouchableOpacity} from 'react-native'
 import { Actions } from 'react-native-router-flux'
 import ArrowIcon from 'react-native-vector-icons/EvilIcons'
-import {DeviceInfo,ScaleSize,ScaleText,Toast,Theme}  from '../../public/FileReference'
+import {DeviceInfo,ScaleSize,ScaleText,Toast,Theme}  from '../../utils/FileReference'
 import { Button } from 'react-native-elements'
 import ImagePicker from 'react-native-image-picker'
 

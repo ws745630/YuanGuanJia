@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import QRCode from 'react-native-qrcode'
-import { Theme, DeviceInfo, ScaleSize, ScaleText } from '../../public/FileReference'
+import { Theme, DeviceInfo, ScaleSize, ScaleText } from '../../utils/FileReference'
 
 
 import {

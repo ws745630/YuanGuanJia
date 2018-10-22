@@ -10,9 +10,9 @@ import {
     View,
     ScrollView
 } from 'react-native' 
-import DateUtil from '../../public/DateUtil' 
+import DateUtil from '../../utils/DateUtil' 
 import LeftRightLabel from './LeftRightLabel' 
-import {Theme,DeviceInfo} from '../../public/FileReference'
+import {Theme,DeviceInfo} from '../../utils/FileReference'
 
 export default class OrderDetailsView extends Component {
 

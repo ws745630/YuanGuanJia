@@ -4,7 +4,7 @@
 import React, { Component} from 'react'
 import PropTypes from 'prop-types'
 import {View, Text, StyleSheet, TouchableOpacity} from 'react-native'
-import Theme from '../../public/Theme'
+import Theme from '../../utils/Theme'
 import Icon from '../icon/BusiIcon'
 const barBtnWidth = 40
 const defaultNavigationBarProps = {

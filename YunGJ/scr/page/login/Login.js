@@ -10,10 +10,10 @@ import {
     AsyncStorage
 } from 'react-native'
 import {Actions} from 'react-native-router-flux'
-import NetWorkTool from '../../public/network/NetWorkTool'
-import BusiInfo from '../../public/BusiInfo'
+import NetWorkTool from '../../utils/network/NetWorkTool'
+import BusiInfo from '../../utils/BusiInfo'
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view'
-import {ScaleSize,ScaleText,Toast} from '../../public/FileReference'
+import {ScaleSize,ScaleText,Toast} from '../../utils/FileReference'
 
 const window = Dimensions.get('window')
 

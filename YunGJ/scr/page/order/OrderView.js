@@ -4,12 +4,12 @@ import {
     Text,
     StyleSheet,
 } from 'react-native'
-import ScrollableTabView, { DefaultTabBar, ScrollableTabBar } from 'react-native-scrollable-tab-view'
+// import ScrollableTabView, { DefaultTabBar, ScrollableTabBar } from 'react-native-scrollable-tab-view'
 import RefreshListView, { RefreshState } from 'react-native-refresh-list-view'
-import {Theme,DeviceInfo,ScaleSize,ScaleText,Toast} from '../../public/FileReference'
+import {Theme,DeviceInfo,ScaleSize,ScaleText,Toast} from '../../utils/FileReference'
 import OrderCell from './cell/OrderCell';
-import NetWorkTool from '../../public/network/NetWorkTool'
-import BusiInfo from '../../public/BusiInfo'
+import NetWorkTool from '../../utils/network/NetWorkTool'
+import BusiInfo from '../../utils/BusiInfo'
 
 export default class OrderView extends Component {
 
@@ -99,8 +99,8 @@ export default class OrderView extends Component {
     /*tabType*/
     _headerTabView() {
         return (
-            
-                <ScrollableTabView
+            <View></View>
+                /*<ScrollableTabView
                     initialPage={0}
                     renderTabBar={() => <ScrollableTabBar />}
                     tabBarBackgroundColor={Theme.whiteColor}
@@ -119,7 +119,7 @@ export default class OrderView extends Component {
                     <Text tabLabel='已发货' />
                     <Text tabLabel='待发货' />
                     <Text tabLabel='验券' />
-                </ScrollableTabView>
+                </ScrollableTabView>*/
         )
 
     }

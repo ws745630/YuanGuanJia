@@ -7,7 +7,7 @@
 
 import React, { Component } from 'react'
 import { View, StyleSheet, Text, ImageBackground, ScrollView } from 'react-native'
-import { DeviceInfo, Theme, ScaleSize, ScaleText } from '../../public/FileReference'
+import { DeviceInfo, Theme, ScaleSize, ScaleText } from '../../utils/FileReference'
 import { Button } from 'react-native-elements'
 
 

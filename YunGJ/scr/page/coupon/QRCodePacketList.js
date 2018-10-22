@@ -13,10 +13,10 @@ import {
 } from 'react-native'  
 import {Actions} from 'react-native-router-flux'
 import { BaseComponent } from '../../component/base/BaseComponent'
-import {Theme,DeviceInfo,ScaleSize,ScaleText} from '../../public/FileReference'
+import {Theme,DeviceInfo,ScaleSize,ScaleText} from '../../utils/FileReference'
 import QRCode from 'react-native-qrcode'  
-import NetWorkTool from '../../public/network/NetWorkTool'  
-import BusiInfo from '../../public/BusiInfo'  
+import NetWorkTool from '../../utils/network/NetWorkTool'  
+import BusiInfo from '../../utils/BusiInfo'  
 
 export default class QRCodePacketList extends BaseComponent {
 

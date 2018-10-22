@@ -9,11 +9,11 @@ import {
     Alert,
     ScrollView
 } from 'react-native'  
-import NetWorkTool from '../../public/network/NetWorkTool'  
-import BusiInfo from '../../public/BusiInfo'  
+import NetWorkTool from '../../utils/network/NetWorkTool'  
+import BusiInfo from '../../utils/BusiInfo'  
 import Swiper from 'react-native-swiper'  
 import ShowTicket from '../../component/coupon/ShowTicket'
-import { Theme,DeviceInfo,ScaleSize,ScaleText} from '../../public/FileReference'
+import { Theme,DeviceInfo,ScaleSize,ScaleText} from '../../utils/FileReference'
 
 
 let H = 200  

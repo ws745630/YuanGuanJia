@@ -7,12 +7,12 @@ import {
     TouchableOpacity,
     Alert
 } from 'react-native';
-import DateUtil from '../../public/DateUtil'
+import DateUtil from '../../utils/DateUtil'
 import ShowTicket from '../../component/coupon/ShowTicket'
 import { Actions } from 'react-native-router-flux';
-import BusiInfo from '../../public/BusiInfo';
-import NetWorkTool from '../../public/network/NetWorkTool'
-import {ScaleSize,ScaleText,DeviceInfo} from '../../public/FileReference'
+import BusiInfo from '../../utils/BusiInfo';
+import NetWorkTool from '../../utils/network/NetWorkTool'
+import {ScaleSize,ScaleText,DeviceInfo} from '../../utils/FileReference'
 
 export default class ActivityCell extends Component {
 

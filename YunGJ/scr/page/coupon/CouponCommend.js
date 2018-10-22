@@ -3,10 +3,10 @@ import React, { Component } from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, FlatList } from 'react-native'
 import { Button, ButtonGroup } from 'react-native-elements'
 import ArrowIcon from 'react-native-vector-icons/EvilIcons'
-import { Theme, DeviceInfo, Toast, ScaleSize, ScaleText } from '../../public/FileReference'
-import BusiInfo from '../../public/BusiInfo'
+import { Theme, DeviceInfo, Toast, ScaleSize, ScaleText } from '../../utils/FileReference'
+import BusiInfo from '../../utils/BusiInfo'
 import CommendCell from './cell/CommendCell'
-import NetWorkTool from '../../public/network/NetWorkTool'
+import NetWorkTool from '../../utils/network/NetWorkTool'
 
 export default class extends Component {
 

@@ -3,7 +3,7 @@
  */
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Modal } from 'react-native';
-import DeviceInfo from '../../public/DeviceInfo'
+import DeviceInfo from '../../utils/DeviceInfo'
 import { Actions } from 'react-native-router-flux'
 import Picker from 'react-native-picker'
 

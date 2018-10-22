@@ -8,7 +8,7 @@
 import React, { Component } from 'react' 
 import {View,StyleSheet,Text} from 'react-native'  
 import Carousel from 'react-native-snap-carousel'
-import {DeviceInfo,Theme}  from '../../public/FileReference'
+import {DeviceInfo,Theme}  from '../../utils/FileReference'
 
 export default class  extends Component { 
  constructor(props) {

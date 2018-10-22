@@ -13,7 +13,7 @@ import {
 import TicketDetail from '../../component/coupon/TicketDetail'
 import ImageButton  from '../../component/button/ImageButton'
 import CouponCommend from './CouponCommend'
-import {Theme,DeviceInfo,Toast,ScaleSize,ScaleText} from '../../public/FileReference'
+import {Theme,DeviceInfo,Toast,ScaleSize,ScaleText} from '../../utils/FileReference'
 
 export default class CouponDetail extends Component {
     constructor(props) {

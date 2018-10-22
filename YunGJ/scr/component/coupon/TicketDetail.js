@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { View, Text, Image, StyleSheet } from 'react-native'
 import ShowTicket from './ShowTicket'
-import DateUtil from '../../public/DateUtil'
-import { convertCouponNoDate, reconvertCouponType } from '../../public/CouponTypeDeal'
-import {DeviceInfo,Theme,ScaleSize, ScaleText} from '../../public/FileReference'
+import DateUtil from '../../utils/DateUtil'
+import { convertCouponNoDate, reconvertCouponType } from '../../utils/CouponTypeDeal'
+import {DeviceInfo,Theme,ScaleSize, ScaleText} from '../../utils/FileReference'
 
 const qitause = require('../../images/coupon/qitause_icon.png')
 const diejia = require('../../images/coupon/diejia_icon.png')

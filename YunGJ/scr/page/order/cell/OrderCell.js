@@ -13,10 +13,10 @@ import {
     DeviceEventEmitter,
     ImageBackground,
 } from 'react-native'
-import DateUtil from '../../../public/DateUtil'
+import DateUtil from '../../../utils/DateUtil'
 import { Actions } from 'react-native-router-flux'
 import LeftRightLabel from '../LeftRightLabel'
-import {Theme,DeviceInfo,ScaleSize,ScaleText} from '../../../public/FileReference'
+import {Theme,DeviceInfo,ScaleSize,ScaleText} from '../../../utils/FileReference'
 
 export default class OrderCell extends Component {
     constructor(props) {

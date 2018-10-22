@@ -6,7 +6,7 @@
 import React, { Component } from 'react'
 import { View, StyleSheet, ImageBackground } from 'react-native'
 import NavigationBar from '../navigationBar/NavigationBar'
-import Theme from '../../public/Theme'
+import Theme from '../../utils/Theme'
 import { Actions } from "react-native-router-flux"
 
 class BaseComponent extends Component {

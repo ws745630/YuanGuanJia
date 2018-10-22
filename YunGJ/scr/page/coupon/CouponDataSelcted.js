@@ -6,7 +6,7 @@ import { StyleSheet, Text, ScrollView, View, TouchableOpacity, Alert, TextInput 
 import SelectedIconText from '../../component/iconText/SelectedIconText'
 import {Actions} from 'react-native-router-flux'
 import { BaseComponent } from '../../component/base/BaseComponent'
-import {Theme,ScaleSize,ScaleText,Toast} from '../../public/FileReference'
+import {Theme,ScaleSize,ScaleText,Toast} from '../../utils/FileReference'
 
 export default class CouponNoDateSelcted extends BaseComponent 
 {

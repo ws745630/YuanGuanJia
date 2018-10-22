@@ -2,7 +2,7 @@
 import React, { Component } from 'react' 
 import {View,TouchableOpacity,Text,StyleSheet}  from 'react-native'
 import BusiIcon from '../icon/BusiIcon'
-import { ScaleSize, ScaleText } from '../../public/Fit'
+import { ScaleSize, ScaleText } from '../../utils/Fit'
 export default class ImageButton  extends Component { 
  render(){
    return(

@@ -9,7 +9,7 @@ import {
     View,
     StyleSheet
 }from 'react-native';
-import {DeviceInfo,ScaleSize,Theme} from '../../public/FileReference'
+import {DeviceInfo,ScaleSize,Theme} from '../../utils/FileReference'
 const INDICATOR_LEFT = 5;
 const INDICATOR_WIDTH = 8;
 export default class IndicatorView extends Component {

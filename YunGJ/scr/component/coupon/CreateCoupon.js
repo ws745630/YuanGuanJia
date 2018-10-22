@@ -4,9 +4,9 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, Image, View, TouchableOpacity, TextInput } from 'react-native';
 import BackIcon from 'react-native-vector-icons/EvilIcons'
-import NetWorkTool from '../../public/network/NetWorkTool'
-import BusiInfo from '../../public/BusiInfo'
-import { DeviceInfo, Theme, Toast, ScaleSize, ScaleText } from '../../public/FileReference'
+import NetWorkTool from '../../utils/network/NetWorkTool'
+import BusiInfo from '../../utils/BusiInfo'
+import { DeviceInfo, Theme, Toast, ScaleSize, ScaleText } from '../../utils/FileReference'
 import CouponDetail from './TicketDetail'
 
 

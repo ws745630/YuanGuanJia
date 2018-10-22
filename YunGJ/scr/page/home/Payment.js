@@ -10,9 +10,9 @@ import {
     Alert,
     AsyncStorage
 } from 'react-native'  
-import NetWorkTool from '../../public/network/NetWorkTool'  
+import NetWorkTool from '../../utils/network/NetWorkTool'  
 import {Actions} from 'react-native-router-flux'  
-import {Theme,DeviceInfo,ScaleSize,ScaleText} from '../../public/FileReference'
+import {Theme,DeviceInfo,ScaleSize,ScaleText} from '../../utils/FileReference'
 
 export default class Payment extends Component {
     constructor(props) {

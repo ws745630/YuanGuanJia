@@ -11,10 +11,10 @@ import {
     
 } from 'react-native';
 import CouponCell from './cell/CouponCell'
-import NetWorkTool from '../../public/network/NetWorkTool'
-import BusiInfo from '../../public/BusiInfo'
+import NetWorkTool from '../../utils/network/NetWorkTool'
+import BusiInfo from '../../utils/BusiInfo'
 import RefreshListView, { RefreshState } from 'react-native-refresh-list-view'
-import Emitter from '../../public/EmitterConst'
+import Emitter from '../../utils/EmitterConst'
 
 export default class Coupon extends Component {
     constructor(props) {

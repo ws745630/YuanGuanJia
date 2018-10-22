@@ -5,7 +5,7 @@
  */
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View,Image} from 'react-native';
-import {Theme,DeviceInfo,ScaleSize,ScaleText} from '../../public/FileReference'
+import {Theme,DeviceInfo,ScaleSize,ScaleText} from '../../utils/FileReference'
 import {Actions,Scene} from 'react-native-router-flux'
 
 export default class Message extends Component

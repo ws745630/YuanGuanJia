@@ -12,9 +12,9 @@ import {
     Dimensions,
     TouchableOpacity,
 } from 'react-native';
-import DeviceInfo from '../../public/DeviceInfo'
-import DateUtil from '../../public/DateUtil'
-import {ScaleSize,ScaleText} from '../../public/Fit'
+import DeviceInfo from '../../utils/DeviceInfo'
+import DateUtil from '../../utils/DateUtil'
+import {ScaleSize,ScaleText} from '../../utils/Fit'
 import Texts from './Texts'
 import {Actions} from 'react-native-router-flux'
 

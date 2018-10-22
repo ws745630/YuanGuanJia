@@ -5,9 +5,9 @@ import {
     View,
     Image
 } from 'react-native'
-import { ScaleSize, ScaleText, Theme } from '../../../public/FileReference'
-import DateUtil from '../../../public/DateUtil'
-import Base64Util from '../../../public/Base64Util'
+import { ScaleSize, ScaleText, Theme } from '../../../utils/FileReference'
+import DateUtil from '../../../utils/DateUtil'
+import Base64Util from '../../../utils/Base64Util'
 
 export default class CommendCell extends Component {
 

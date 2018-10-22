@@ -6,9 +6,9 @@ import {
     TouchableOpacity
 } from 'react-native';
 import ActivityCell from '../activity/ActivityCell'
-import NetWorkTool from '../../public/network/NetWorkTool'
-import BusiInfo from '../../public/BusiInfo'
-import {ScaleSize,ScaleText} from '../../public/Fit'
+import NetWorkTool from '../../utils/network/NetWorkTool'
+import BusiInfo from '../../utils/BusiInfo'
+import {ScaleSize,ScaleText} from '../../utils/Fit'
 import RefreshListView, { RefreshState } from 'react-native-refresh-list-view'
 
 

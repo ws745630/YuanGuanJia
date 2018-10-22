@@ -8,11 +8,11 @@ import {
     ScrollView,
     Alert
 } from 'react-native';
-import NetWorkTool from '../../public/network/NetWorkTool'
-import DateUtil from '../../public/DateUtil'
+import NetWorkTool from '../../utils/network/NetWorkTool'
+import DateUtil from '../../utils/DateUtil'
 import ShowTicket from '../../component/coupon/ShowTicket'
-import BusiInfo from '../../public/BusiInfo'
-import {Theme,DeviceInfo,ScaleSize,ScaleText} from '../../public/FileReference'
+import BusiInfo from '../../utils/BusiInfo'
+import {Theme,DeviceInfo,ScaleSize,ScaleText} from '../../utils/FileReference'
 
 
 export default class ActivityDetail extends Component {

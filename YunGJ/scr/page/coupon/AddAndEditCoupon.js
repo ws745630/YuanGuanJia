@@ -12,12 +12,12 @@ import {
     TextInput,
     DeviceEventEmitter,
 } from 'react-native';
-import Emitter from '../../public/EmitterConst'
-import {Theme,DeviceInfo,ScaleSize,ScaleText,Toast} from '../../public/FileReference'
+import Emitter from '../../utils/EmitterConst'
+import {Theme,DeviceInfo,ScaleSize,ScaleText,Toast} from '../../utils/FileReference'
 import { Actions } from 'react-native-router-flux'
-import NetWorkTool from '../../public/network/NetWorkTool'
+import NetWorkTool from '../../utils/network/NetWorkTool'
 import ArrowIcon from 'react-native-vector-icons/EvilIcons'
-import ItemList from '../../public/json/createcoupon.json'
+import ItemList from '../../utils/json/createcoupon.json'
 import CouponPicker from '../../component/picker/CouponPicker'
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 import { BaseComponent } from '../../component/base/BaseComponent'
@@ -30,12 +30,12 @@ import {
     getDateData,
     getCouponData
 }
-from '../../public/CouponTypeDeal'
-import DateUtil from '../../public/DateUtil'
+from '../../utils/CouponTypeDeal'
+import DateUtil from '../../utils/DateUtil'
 import CreateCoupon from '../../component/coupon/CreateCoupon'
-import DefaultModal from '../../public/DefaultModal'
-import WeekList from '../../public/json/week.json'
-import BusiInfo from '../../public/BusiInfo'
+import DefaultModal from '../../utils/DefaultModal'
+import WeekList from '../../utils/json/week.json'
+import BusiInfo from '../../utils/BusiInfo'
 
 export default class AddAndEditCoupon extends BaseComponent {
 
