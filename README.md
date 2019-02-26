@@ -2,7 +2,7 @@
 
 项目地址:[git@github.com:ws745630/YuanGuanJia.git](git@github.com:ws745630/YuanGuanJia.git)
 
-测试账号:商户号:10000279 账号:1111 密码:qwer1234
+测试账号:商户号:10000279 账号:1111 密码:11111111
 
 <strong>芸管家</strong>是一款优惠券管理平台，包括电子券、商户信息、设置、二维码包、评论、消息
 
